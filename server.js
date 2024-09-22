@@ -81,8 +81,8 @@ setInterval( function() {
 
 
 
-//const port = 80;  //digital ocean
-const port = 1880;  //OliMih
+const port = 80;  //digital ocean
+// const port = 1880;  //OliMih
 
 
 let app    = require('express')();
