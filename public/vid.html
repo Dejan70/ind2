@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+div.new {
+  position: absolute;
+  top: 0px;
+  left: 600;
+  width: 640px;
+  height: 480px;
+  border: 3px solid #73AD21;
+}
+
+iframe.old {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 640;
+  height: 480px;
+  border: 3px solid #73AD21;
+}
+</style>
+
+<!--iframe width="640" height="480" src="https://www.youtube.com/embed/tgbNymZ7vqY"-->
+<!-- width="1200" height="720" src="http://192.168.0.18:8081/?action=stream"-->
+
+
+<!--iframe   class="new" width="640" height="480" src="http://192.168.0.18:8081/?action=stream"-->
+
+
+<!--iframe   class="old" width="640" height="480" src="http://192.168.0.18:8080/?action=stream"-->
+
+<!--/iframe-->
+
+<div  style="position: absolute;left: 640px;  top: 0px;" >
+  <!--div class="absolute">This div element has position: absolute;</div-->
+  <!--iframe   class="new" width="1280" height="960" src="http://192.168.0.18:8081/?action=stream"-->
+     <!--iframe    width="640px" height="480px"  src="http://192.168.0.18:8081/?action=stream"-->
+      <iframe    width="640px" height="480px"  src="http://192.168.1.14:8004/?action=stream"></iframe>
+
+</iframe>
+</div>
+<div  style="position: absolute;left: 0px;  top: 0px;" >
+  <!--div class="absolute">This div element has position: absolute;</div-->
+  <!--iframe   class="new" width="1280" height="960" src="http://192.168.0.18:8081/?action=stream"-->
+     <!--iframe    width="640px" height="480px"  src="http://192.168.0.18:8080/?action=stream"-->
+        <iframe    width="640px" height="480px"  src="http://192.168.1.14:8003/?action=stream">
+</iframe>
+</div>
+
+
+</body>
+</html>
